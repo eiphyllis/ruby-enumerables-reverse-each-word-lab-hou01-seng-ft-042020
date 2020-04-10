@@ -15,6 +15,7 @@ def reverse_each_word(string)
 p string
 p string.class
 phrase = string
+p phrase
 =begin
   array_of_words = {
     name: %w(string)
