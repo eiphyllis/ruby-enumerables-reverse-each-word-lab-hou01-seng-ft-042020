@@ -20,6 +20,7 @@ def reverse_each_word(string)
     end
     #i got the elements to reverse but idk how to put them into single string
     #bc array_of_words.join doesnt have the elements reversed anymore
+    p array_of_words
     array_of_words.join(" ")
 end
 
