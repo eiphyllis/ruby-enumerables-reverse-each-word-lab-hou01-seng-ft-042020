@@ -18,8 +18,6 @@ def reverse_each_word(string)
   array_of_words.collect do |element|
     element.reverse
     end
-    #i got the elements to reverse but idk how to put them into single string
-    #bc array_of_words doesnt store the reversed elements
     #.collect returns a new array. but where is it? that is what i need to call join on
     .join(" ")
 end
