@@ -39,6 +39,7 @@ new_array = []
     end
 #  p array_of_words
 #  p new_array
+new_array
 end
 
 
