@@ -33,6 +33,7 @@ array_of_words = string.split(" " )
   p array_of_words[1]
 =end
   array_of_words.each do |element|
+    p element.class
     element = element.reverse
     end
   p array_of_words
