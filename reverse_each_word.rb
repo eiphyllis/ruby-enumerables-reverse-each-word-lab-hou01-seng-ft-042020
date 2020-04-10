@@ -36,7 +36,9 @@ new_array = []
 #{}"'#{['12','34','35','231'].join("', '")}'"
 new_array.join(" ")
 
-array_of_words.collect 
+array_of_words.collect do |element|
+  element.reverse
+end 
 end
 
 
