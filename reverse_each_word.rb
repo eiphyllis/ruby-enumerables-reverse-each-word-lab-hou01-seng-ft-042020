@@ -26,6 +26,7 @@ array_of_words = phrase.split("," )
   #p %w(string)
   p array_of_words
   p array_of_words[0]
+  p array_of_words[1]
 
 array_of_words.each do |element|
   element.reverse
