@@ -17,7 +17,7 @@ def reverse_each_word(string)
     #name: %w[string]
 #  }
 array_of_words = string.split(', ')
-p array_of_words
+#p array_of_words
   p array_of_words
 array_of_words.each do |element|
   element.reverse
