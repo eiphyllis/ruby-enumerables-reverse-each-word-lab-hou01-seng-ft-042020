@@ -13,10 +13,10 @@ Hint: How can we reverse each word and return those altered words? Remember that
 
 def reverse_each_word(string)
 
-  #array_of_words = {
-    #name: %w[string]
-#  }
-array_of_words = string.split(', ')
+  array_of_words = {
+    name: %w[string]
+  }
+#array_of_words = string.split(', ')
 
   p array_of_words
 array_of_words.each do |element|
