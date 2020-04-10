@@ -22,6 +22,4 @@ def reverse_each_word(string)
     .join(" ")
 end
 
-
-
 p reverse_each_word("I love cheese yeah")
