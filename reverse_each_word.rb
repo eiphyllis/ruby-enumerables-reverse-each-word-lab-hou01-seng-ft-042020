@@ -22,6 +22,7 @@ p string
 array_of_words = string.split("," )
   #p %w(string)
   p array_of_words
+  p array_of_words[0]
 
 array_of_words.each do |element|
   element.reverse
