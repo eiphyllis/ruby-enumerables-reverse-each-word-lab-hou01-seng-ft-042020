@@ -19,7 +19,7 @@ p string
   }
 =end
 array_of_words = []
-array_of_words[0] = string.split(', ')
+array_of_words[0] = string.split("," )
   #p %w(string)
   p array_of_words
 
