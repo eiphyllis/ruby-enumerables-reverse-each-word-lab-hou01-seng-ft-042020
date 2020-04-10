@@ -12,8 +12,8 @@ def reverse_each_word(string)
   array_of_words.each do |element|
     new_array << element.reverse
     end
-=end
   p new_array.join(" ")
+=end 
   p (array_of_words.each do |element|
     element.reverse
   end).join(" ")
