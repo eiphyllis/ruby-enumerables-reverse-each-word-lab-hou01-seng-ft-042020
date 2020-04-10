@@ -20,5 +20,5 @@ array_of_words.each do |element|
   element.reverse
 end
   #array_of_words = string.split(', ')
-
+array_of_words
 end
