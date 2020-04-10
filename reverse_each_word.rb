@@ -41,7 +41,7 @@ new_array = []
 #  p new_array
 #new_array
 #{}"'#{['12','34','35','231'].join("', '")}'"
-"'#{new_array.join(" ")}'"
+new_array.join(" ")
 end
 
 
