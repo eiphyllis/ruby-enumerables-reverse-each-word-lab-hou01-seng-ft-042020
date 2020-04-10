@@ -25,16 +25,17 @@ p phrase
 array_of_words = phrase.split(" " )
 #somehow, doesnt split. only assigns the whole string to first element of array
   #p %w(string)
-  p array_of_words
+=begin
+    p array_of_words
   p array_of_words[0]
   p array_of_words[1]
-
+=end
   array_of_words.each do |element|
     element.reverse
     end
-  p array_of_words
+  #p array_of_words
 end
 
 
 
-reverse_each_word("I love cheese yeah")
+#reverse_each_word("I love cheese yeah")
