@@ -16,7 +16,7 @@ def reverse_each_word(string)
   p new_array.join(" ")
 
   array_of_words.collect do |element|
-    element.reverse
+    p element.reverse
     end
     #i got the elements to reverse but idk how to put them into single string
     #bc array_of_words.join doesnt have the elements reversed anymore
