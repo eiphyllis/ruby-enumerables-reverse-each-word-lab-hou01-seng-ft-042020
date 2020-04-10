@@ -44,4 +44,4 @@ end
 
 
 
-reverse_each_word("I love cheese yeah")
+p reverse_each_word("I love cheese yeah")
