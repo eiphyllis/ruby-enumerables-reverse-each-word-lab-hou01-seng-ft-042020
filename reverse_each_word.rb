@@ -20,4 +20,4 @@ def reverse_each_word(string)
   end).join(" ")
 end
 
-p reverse_each_word("I love cheese yeah")
+#p reverse_each_word("I love cheese yeah")
