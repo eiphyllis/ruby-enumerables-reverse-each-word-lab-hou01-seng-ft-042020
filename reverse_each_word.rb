@@ -37,10 +37,10 @@ new_array = []
   #  p element.class
     new_array << element.reverse
     end
-  p array_of_words
-  p new_array
+#  p array_of_words
+#  p new_array
 end
 
 
 
-reverse_each_word("I love cheese yeah")
+#reverse_each_word("I love cheese yeah")
