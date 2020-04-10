@@ -39,7 +39,7 @@ array_of_words = string.split(" " )
     p array_of_words.collect do |element|
       element.reverse
     end
-    
+
 end
 
 
