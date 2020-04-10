@@ -39,7 +39,9 @@ new_array = []
     end
 #  p array_of_words
 #  p new_array
-new_array
+#new_array
+#{}"'#{['12','34','35','231'].join("', '")}'"
+"'#{new_array.join(" ")}'"
 end
 
 
