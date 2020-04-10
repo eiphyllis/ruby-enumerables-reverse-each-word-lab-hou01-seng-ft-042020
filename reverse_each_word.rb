@@ -36,10 +36,10 @@ array_of_words = string.split(" " )
     #{}"'#{['12','34','35','231'].join("', '")}'"
     p new_array.join(" ")
 
-    array_of_words.collect do |element|
+    p array_of_words.collect do |element|
       element.reverse
     end
-    p array_of_words.join(" ")
+    
 end
 
 
