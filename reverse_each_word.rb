@@ -38,6 +38,7 @@ new = []
     new << element.reverse
     end
   p array_of_words
+  p new
 end
 
 
