@@ -25,20 +25,20 @@ array_of_words = string.split(" " )
   p array_of_words[0]
   p array_of_words[1]
 =end
-new_array = []
-  array_of_words.each do |element|
-  #  p element.class
-    new_array << element.reverse
-    end
-#  p array_of_words
-#  p new_array
-#new_array
-#{}"'#{['12','34','35','231'].join("', '")}'"
-new_array.join(" ")
+    new_array = []
+      array_of_words.each do |element|
+      #  p element.class
+        new_array << element.reverse
+        end
+    #  p array_of_words
+    #  p new_array
+    #new_array
+    #{}"'#{['12','34','35','231'].join("', '")}'"
+    new_array.join(" ")
 
-array_of_words.collect do |element|
-  element.reverse
-end 
+    array_of_words.collect do |element|
+      element.reverse
+    end 
 end
 
 
