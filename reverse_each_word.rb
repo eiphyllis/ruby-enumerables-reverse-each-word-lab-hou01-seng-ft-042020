@@ -15,9 +15,10 @@ def reverse_each_word(string)
 
   p new_array.join(" ")
 
-  array_of_words.collect do |element|
+  p (array_of_words.collect do |element|
     element.reverse
-    end
+  end)
+  
     #.collect returns a new array. but where is it? that is what i need to call join on
     .join(" ")
 end
