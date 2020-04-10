@@ -14,13 +14,14 @@ Hint: How can we reverse each word and return those altered words? Remember that
 def reverse_each_word(string)
 p string
 p string.class
+phrase = string
 =begin
   array_of_words = {
     name: %w(string)
   }
 =end
 #array_of_words = []
-array_of_words = string.split("," )
+array_of_words = phrase.split("," )
   #p %w(string)
   p array_of_words
   p array_of_words[0]
