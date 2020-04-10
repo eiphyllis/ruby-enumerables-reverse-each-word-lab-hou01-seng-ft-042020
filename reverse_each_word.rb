@@ -17,7 +17,7 @@ p string
   array_of_words = {
     name: %w(string)
   }
-=end 
+=end
 array_of_words = string.split(', ')
   p %w(string)
   p array_of_words
