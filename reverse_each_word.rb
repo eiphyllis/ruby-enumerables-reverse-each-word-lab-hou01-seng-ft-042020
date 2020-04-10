@@ -32,13 +32,13 @@ array_of_words = string.split(" " )
   p array_of_words[0]
   p array_of_words[1]
 =end
-new = []
+new_array = []
   array_of_words.each do |element|
   #  p element.class
     new << element.reverse
     end
   p array_of_words
-  p new
+  p new_array
 end
 
 
