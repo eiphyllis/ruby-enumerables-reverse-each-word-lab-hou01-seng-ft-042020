@@ -14,7 +14,7 @@ Hint: How can we reverse each word and return those altered words? Remember that
 def reverse_each_word(string)
 
   array_of_words = {
-    name: %w[#{string}]
+    name: %w(string)
   }
 #array_of_words = string.split(', ')
 
