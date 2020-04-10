@@ -23,6 +23,7 @@ p phrase
 =end
 #array_of_words = []
 array_of_words = phrase.split("," )
+#somehow, doesnt split. only assigns the whole string to first element of array
   #p %w(string)
   p array_of_words
   p array_of_words[0]
