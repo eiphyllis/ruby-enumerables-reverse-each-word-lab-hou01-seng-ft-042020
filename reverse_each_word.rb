@@ -17,7 +17,7 @@ p string
     name: %w(string)
   }
 #array_of_words = string.split(', ')
-
+p %w(string)
   p array_of_words
 
 array_of_words.each do |element|
