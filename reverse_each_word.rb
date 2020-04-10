@@ -18,9 +18,6 @@ def reverse_each_word(string)
   (array_of_words.collect do |element|
     element.reverse
   end).join(" ")
-
-    #.collect returns a new array. but where is it? that is what i need to call join on
-  #  .join(" ")
 end
 
 p reverse_each_word("I love cheese yeah")
