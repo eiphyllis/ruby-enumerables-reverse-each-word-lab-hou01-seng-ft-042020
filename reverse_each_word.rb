@@ -20,7 +20,7 @@ def reverse_each_word(string)
   end)
 
     #.collect returns a new array. but where is it? that is what i need to call join on
-    .join(" ")
+  #  .join(" ")
 end
 
 p reverse_each_word("I love cheese yeah")
