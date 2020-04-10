@@ -7,16 +7,13 @@ Remember that .each returns the original array but other enumerators don't.
 def reverse_each_word(string)
 
   array_of_words = string.split(" " )
-=begin
+
   new_array = []
   array_of_words.each do |element|
     new_array << element.reverse
     end
   p new_array.join(" ")
-=end 
-  p (array_of_words.each do |element|
-    element.reverse
-  end).join(" ")
+
 
   (array_of_words.collect do |element|
     element.reverse
