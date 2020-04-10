@@ -24,3 +24,4 @@ array_of_words.each do |element|
 end
 
 end
+reverse_each_word("I love cheese yeah")
